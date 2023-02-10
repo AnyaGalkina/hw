@@ -1,0 +1,16 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+
+}
+
+.hwTitle {
+    /*Font*/
+    /*Montserrat*/
+    weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 70px;
+}

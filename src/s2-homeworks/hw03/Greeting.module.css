@@ -1,0 +1,50 @@
+.greetingForm {
+    padding: 20px 70px 5px 10px;
+    margin-left: 70px;
+}
+
+.inputAndButtonContainer {
+}
+
+.error {
+    color: red;
+}
+
+.input {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.input:focus {
+}
+
+.errorInput {
+    border-color: red;
+}
+
+.button {
+    padding: 5px 24px 5px 24px;
+    height: 36px;
+    border-radius: 3px;
+    background-color: #0066CC;
+    color: #fff;
+}
+
+.button:focus {
+}
+
+.button:active {
+}
+
+.button:disabled {
+    opacity: 50%;
+}
+
+.text {
+    color: rgba(0, 0, 0, 0.5);;
+    /*color: slategrey;*/
+}
+
+.greeting {
+}
