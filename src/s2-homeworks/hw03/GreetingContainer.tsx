@@ -70,7 +70,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
 
     return (
         <Greeting
-            name={lastUserName}
+            name={name}
             setNameCallback={setNameCallback}
             addUser={addUser}
             onBlur={onBlur}
