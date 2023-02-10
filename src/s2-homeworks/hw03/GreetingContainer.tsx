@@ -65,7 +65,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
         pureOnEnter(e, addUser)
     }
 
-    const totalUsers = users.length // need to fix
+    const totalUsers = users.length
     const lastUserName = users.length !==0 ? users[users.length-1].name : undefined// need to fix
 
     return (
