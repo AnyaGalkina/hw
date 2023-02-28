@@ -26,7 +26,14 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = (
         ...restProps // все остальные пропсы попадут в объект restProps
     }
 ) => {
+
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
+        if(onChange){
+            onChange(e);
+        }
+        if(onChangeChecked){
+            onChangeChecked(e.currentTarget.checked)
+        }
         // задачка на написание онченджа
 
     }
